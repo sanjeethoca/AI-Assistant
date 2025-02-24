@@ -1,4 +1,3 @@
 streamlit
 chromadb
 requests
-pysqlite3-binary
