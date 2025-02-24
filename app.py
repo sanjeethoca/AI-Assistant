@@ -5,8 +5,9 @@ import os
 import sys
 import sqlite3
 
-# Ensure Python uses built-in SQLite
+# Ensure ChromaDB uses the correct SQLite version
 sys.modules["pysqlite3"] = sqlite3
+sys.modules["sqlite3"] = sqlite3
 
 # ✅ Ensure persistent ChromaDB connection
 DB_PATH = os.path.abspath(r"c:\Users\AmitPrajapati\Desktop\AI_BOT\chroma_db")  # Get absolute path
