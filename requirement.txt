@@ -1,6 +1,0 @@
-pymongo
-pdfplumber
-sentence-transformers
-python-docx
-chromadb
-requests
