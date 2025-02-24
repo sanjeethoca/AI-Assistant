@@ -2,6 +2,11 @@ import streamlit as st
 import chromadb
 import requests
 import os
+import sys
+import sqlite3
+
+# Ensure Python uses built-in SQLite
+sys.modules["pysqlite3"] = sqlite3
 
 # ✅ Ensure persistent ChromaDB connection
 DB_PATH = os.path.abspath(r"c:\Users\AmitPrajapati\Desktop\AI_BOT\chroma_db")  # Get absolute path
