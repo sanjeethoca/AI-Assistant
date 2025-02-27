@@ -53,7 +53,7 @@ def query_duckdb(query, model, top_n=3):
     return retrieved_chunks if retrieved_chunks else "No relevant context found."
 
 # ✅ Groq API Configuration
-GROQ_API_KEY = "your_groq_api_key_here"  # 🔹 Replace with your actual API Key
+GROQ_API_KEY = "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"  # 🔹 Replace with your actual API Key
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 # ✅ Function to Call Groq's Llama 3.3 - 70B Model
