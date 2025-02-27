@@ -1,3 +1,5 @@
 streamlit
-chromadb
+duckdb
+numpy
 requests
+sentence-transformers
